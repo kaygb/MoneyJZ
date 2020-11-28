@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edit_zdname"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="账单名称"
+        />
+    <EditText
+        android:id="@+id/edit_zddate"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="账单时间"
+        />
+    <EditText
+        android:id="@+id/edit_zdlx"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="账单类型"/>
+    <EditText
+        android:id="@+id/edit_zdje"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="账单金额"/>
+    <EditText
+        android:id="@+id/edit_zdbz"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="账单备注"/>
+    <Button
+        android:id="@+id/btn_addzd"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="添加账单"/>
+
+</LinearLayout>
